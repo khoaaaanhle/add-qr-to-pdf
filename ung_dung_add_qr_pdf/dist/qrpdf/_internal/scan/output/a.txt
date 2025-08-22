@@ -1,0 +1,42 @@
+Công Ty TNHH  Thiết Bị Kiểm Soát Dòng Chảy KingDom Việt Nam
+In dữ liệu CT việc làm
+Ngày lập bảng:
+2025/08/20
+09:25:10
+Người lập:
+裴氏叶 BÙI THỊ DIỆP
+Trang:
+1/4
+MS đơn công lệnh:
+PP105-2506270001
+Tài khoản chi tiết料表已印
+Bộ phận chế tạo:
+[H110] VN_生管課
+Sử dụng lưu trình chế tạo:
+[ZP185]
+NVL sản xuất:
+988014120090301  M
+FNW KV-M1FS 法兰 RF ASME B16.10 钢管 (Nace处理)
+NPS3 CL150 WCB (TFM1600+20%玻纤+316+316) TFM1600填料 客户铭牌
+FNW KV-M1F mặt bích RF ASME B16.10 ống thép (xử lý Nace)
+NPS3 CL150 WCB (TFM1600+20%thủy tinh+316+316) TFM1600 miếng đệm , nhãn hiệu khách hàng
+Số lượng sản xuất:
+10.000  PCS
+Ngày phát thực tế:
+2025/06/27
+Mã đơn đặt hàng:
+SV011-2506260004
+Hạng mục：1
+Ngày bắt đầu theo dự tính:
+2025/10/01
+Ngày Hoàn tất:
+2025/10/01
+Ngày có hiệu lực BOM:
+2025/06/26
+Đơn đặt hàng
+SV011-2025000127
+Ghi chú:
+**** Dữ liệu vật liệu dự phòng ****
+(asfr102)
+(Tiếp trang sau)
+批准 Tán thành：____________ 審核 Ôn tập：____________ 製表 lập bảng：____________
