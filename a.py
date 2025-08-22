@@ -29,6 +29,8 @@ from PySide6.QtWidgets import (
     QApplication, QMainWindow, QFileDialog, QMessageBox, QHeaderView
 )
 from PySide6.QtGui import QIcon
+from PySide6.QtCore import Qt, QThread, Signal, QSettings, QStandardPaths
+
 
 # If you have the same helpers as original code2
 try:
@@ -469,6 +471,12 @@ class MainWindow(QMainWindow):
             pass
 
         self.show()
+        self.settings = QSettings("KI-Gpt", "QR-PDF")  # đặt org/app tuỳ ý
+        self._restore_settings()
+
+        # Lưu lại khi người dùng sửa xong ô nhập
+        self.ui.lineEdit_2.editingFinished.connect(self._save_settings)
+        self.ui.lineEdit_3.editingFinished.connect(self._save_settings)
 
         # Resolve theme path against base_path
         # base_path = self._base_path()
@@ -499,15 +507,30 @@ class MainWindow(QMainWindow):
         self.ui.lineEdit_3.setText(dir_path)
         self.run_pipeline()
 
+    def _restore_settings(self):
+        last_pdf = self.settings.value("last_pdf", "", type=str)
+        last_out = self.settings.value("last_outdir", "", type=str)
+        if last_pdf:
+            self.ui.lineEdit_2.setText(last_pdf)
+        if last_out:
+            self.ui.lineEdit_3.setText(last_out)
+
+    def _save_settings(self):
+        self.settings.setValue("last_pdf", self.ui.lineEdit_2.text().strip())
+        self.settings.setValue("last_outdir", self.ui.lineEdit_3.text().strip())
+
     def run_pipeline(self):
         pdf_path = self.ui.lineEdit_2.text().strip()
         outpdf_dir = self.ui.lineEdit_3.text().strip()
         if not pdf_path:
             QMessageBox.warning(self, "Thiếu đường dẫn", "Vui lòng chọn file PDF (nút 2).")
             return
+        self._save_settings()
+
         base_path = Path(self._base_path())
         outpdf = Path(outpdf_dir) if outpdf_dir else base_path / "pdf" / "output"
         outpdf.mkdir(parents=True, exist_ok=True)
+
 
         # Disable run button while processing
         self.ui.pushButton_3.setEnabled(False)

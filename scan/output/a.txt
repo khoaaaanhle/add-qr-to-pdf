@@ -1,38 +1,40 @@
 Công Ty TNHH  Thiết Bị Kiểm Soát Dòng Chảy KingDom Việt Nam
 In dữ liệu CT việc làm
 Ngày lập bảng:
-2025/08/19
-11:54:30
+2025/08/20
+09:28:20
 Người lập:
 裴氏叶 BÙI THỊ DIỆP
 Trang:
-1/5
+1/4
 MS đơn công lệnh:
-PP105-2507180001
-Tài khoản chi tiết料表未印
+PP105-2506270003
+Tài khoản chi tiết料表已印
 Bộ phận chế tạo:
 [H110] VN_生管課
 Sử dụng lưu trình chế tạo:
-[082F112]
+[L41112]
 NVL sản xuất:
-912380410075101  M
-Ladish KV-C80-FE NPT KI面间距 手柄含滑块(2锁孔) (不做深冷处理,API622填料,B8M/8M螺栓，NACE)
-NPS11/2 CL600 CF3M (PCTFE+F316+XM-19) 柔性石墨+PTFE填料 FKM
+988141120065101  M
+FNW KV-L41 法兰RF ASME B16.10 手柄含滑块 (Nace处理)
+NPS11/2 CL150 CF8M (TFM1600+20%玻纤+316+316) TFM1600填料 FKM 客户铭牌
+FNW KV-L41 mặt bích RF ASME B16.10 tay cầm có thanh trượt (xử lý Nace)
+NPS11/2 CL150 CF8M (TFM1600+20%  thủy tinh+316+316) TFM1600 miếng đệm FKM nhãn hiệu khách hàng
 Số lượng sản xuất:
-25.000  PCS
+120.000  PCS
 Ngày phát thực tế:
-2025/07/18
+2025/06/27
 Mã đơn đặt hàng:
-SV011-2507170003
-Hạng mục：1
+SV011-2506260004
+Hạng mục：3
 Ngày bắt đầu theo dự tính:
-2025/10/15
+2025/10/01
 Ngày Hoàn tất:
-2025/10/15
+2025/10/01
 Ngày có hiệu lực BOM:
-2025/07/18
+2025/06/26
 Đơn đặt hàng
-SV011-2025000151
+SV011-2025000127
 Ghi chú:
 **** Dữ liệu vật liệu dự phòng ****
 (asfr102)
